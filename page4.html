@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>给我留言</title>
+</head>
+<link href="css/lounge.css" type="text/css" rel="stylesheet">
+<link href="css/page4.css" type="text/css" rel="stylesheet">
+<body>
+    <!-- 导航区 -->
+    <nav>
+        <a href="index.html"><img src="images/logo1.png"></a>
+        <ul>
+            <li><a href="index.html">主页</a></li>
+            <li><a href="page2.html">我的简历</a></li>
+            <li><a href="page3.html">我的相册</a></li>
+            <li><a href="page4.html">给我留言</a></li>
+            <li><a href="login.html">用户登录</a></li>
+        </ul>
+    </nav>
+    <!-- 区块 -->
+    <section>
+        <div class="h1">
+            <h1>给我留言吧</h1>
+        </div>
+        <!-- form表单 -->
+        <form action="file:///E:/html/%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5/index.html" method="post">
+            <table>
+                <tr>
+                    <td>姓名：</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>手机：</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>性别：</td>
+                    <td>
+                        <input type="radio" name="sex" id="man"><label for="man">男</label>
+                        <input type="radio" name="sex" id="woman"><label for="woman">女</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>爱好：</td>
+                    <td>
+                        <input type="checkbox" id="sports"><label for="sports">运动</label>
+                        <input type="checkbox" id="music"><label for="music">音乐</label>
+                        <input type="checkbox" id="cartoon"><label for="cartoon">动漫</label>
+                        <input type="checkbox" id="game"><label for="game">游戏</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>城市：</td>
+                    <td>
+                        <select name="city" id="">
+                            <option value="0">北京</option>
+                            <option value="1">天津</option>
+                            <option value="2">河北</option>
+                            <option value="3">河南</option>
+                            <option value="4">山东</option>
+                            <option value="5">山西</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>留言：</td>
+                    <td>
+                        <textarea name="ly" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                        <input type="submit" value="确认提交">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy;版权所属：信管2202汪吟雪</p>
+    </footer>
+</body>
+</html>
