@@ -1,0 +1,58 @@
+#img1{
+    width: 300px;
+    height: 200px;
+}
+table p{
+font-size: 18px;
+text-indent: 2em;
+line-height: 40px;
+letter-spacing: 2px;
+}
+section table{
+    width:90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#img2{
+    width: 300px;
+    height: 400px;
+    margin-left: 15px;
+}
+
+.fengge {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: '等线';
+    margin: 0 auto;
+  }
+  
+  .fengge video {
+    margin-top: 30px;
+    width: 90%;
+  }
+  
+  .fengge span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #6c6c6c;
+    line-height: 50px;
+  }
+  
+  .fengge h3 {
+    text-align: center;
+    width: 100%;
+    line-height: 45px;
+    margin-top: 10px;
+    color: #3f72af;
+    font-size: 20px;
+  }
+  
+  .fengge blockquote {
+    text-align: center;
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 28px;
+  }
